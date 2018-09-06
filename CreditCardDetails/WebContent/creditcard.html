@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Card Details</title>
+</head>
+<body bgcolor = "blue">
+<h1>Enter Card Details</h1>
+<hr>
+	<form action="CreditCard" method="post">
+	<label>Name: </label>
+	<input type = "text" name = "name" size = "15"/>
+<!-- 	<br><br> -->
+	<label>Card Number: </label>
+	<input type = "number" name = "cardNumber" size = "16"/>
+<!-- 	<br><br> -->
+	<label>CVV: </label>
+	<input type = "password" name = "cvv" size = "3" min = "3"/>
+<!-- 	<br><br> -->
+	<label>Expiry Date: </label>
+	<select name="expiryMonth">
+	<option value="month" selected disabled hidden>month</option>
+  <option value="01">01</option>
+  <option value="02">02</option>
+  <option value="03">03</option>
+  <option value="04">04</option>
+  <option value="05">05</option>
+  <option value="06">06</option>
+  <option value="07">07</option>
+  <option value="08">08</option>
+  <option value="09">09</option>
+  <option value="10">10</option>
+  <option value="11">11</option>
+  <option value="12">12</option>
+   </select>
+   /
+  <select name="expiryYear">
+  <option value="year" selected disabled hidden>year</option>
+  <option value="2018">2018</option>
+  <option value="2019">2019</option>
+  <option value="2020">2020</option>
+  <option value="2021">2021</option>
+  <option value="2022">2022</option>
+  <option value="2023">2023</option>
+  <option value="2024">2024</option>
+  <option value="2025">2025</option>
+  <option value="2026">2026</option>
+  <option value="2027">2027</option>
+   </select>
+<input type = "submit" value ="Enter"/>
+  
+</select>
+</body>
+</html>
